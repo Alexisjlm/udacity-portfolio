@@ -1,0 +1,149 @@
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    #container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    #header .logo {
+        width: 50px;
+    }
+
+
+
+
+@media screen and (min-width: 600px) {
+    #container img {
+        width: 500px;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        background: red;
+        width: 100%;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        background: lightblue;
+        text-align: right;
+    }
+    
+    .project {
+        
+    }
+}
+
+    
+
+@media screen and (min-width: 900px) {
+    #container img {
+        width: 100%;
+    }
+
+    
+    #container {
+        width: 1200px;
+    }
+    
+    
+    #container2 {
+        display: flex;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    
+    .project {
+        width: 33.3%;
+    }
+    
+    .project2 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    #container2 img {
+        display: block;
+        object-fit: cover;
+        height: 250px;
+    }
+    
+    .project1 {
+        position: relative;
+    } 
+    .project2 {
+        position: relative;
+    }
+    .project3 {
+        position: relative;
+    }
+
+
+    .linkedin .google .youtube {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .project1:hover .linkedin {
+        opacity: 0.3;
+    }
+    
+    .project2:hover .google {
+        opacity: 0.3;
+    }
+    
+    .project3:hover .youtube {
+        opacity: 0.3;
+    }
+
+    
+    .project1:hover .middle {
+        opacity: 1;
+    }
+    
+    .project2:hover .middle {
+        opacity: 1;
+    }
+    
+    .project3:hover .middle {
+        opacity: 1;
+    }
+
+    .text1 {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }   
+}
