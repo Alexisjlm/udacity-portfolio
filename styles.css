@@ -3,6 +3,11 @@
         justify-content: center;
     }
 
+html
+{
+   font-family: 'Open Sans', sans-serif;
+}
+
     #container {
         text-align: center;
         display: flex;
@@ -23,7 +28,10 @@
         width: 50px;
     }
 
-
+.titles {
+    font-size: 25px;
+    line-height: 0px;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -35,34 +43,33 @@
         display: flex;
         justify-content: space-between;
         align-items: center; 
-        background: red;
         width: 100%;
     }
     
     .text {
         display: flex;
         flex-direction: column;
-        background: lightblue;
         text-align: right;
-    }
-    
-    .project {
-        
     }
 }
 
-    
 
 @media screen and (min-width: 900px) {
     #container img {
         width: 100%;
     }
 
+    .featuredwork {
+        text-align: left;
+    }
     
     #container {
         width: 1200px;
     }
     
+    h1, h2 {
+        margin: 5px
+    }
     
     #container2 {
         display: flex;
@@ -72,6 +79,7 @@
     
     .project {
         width: 33.3%;
+        position: relative
     }
     
     .project2 {
@@ -83,26 +91,6 @@
         display: block;
         object-fit: cover;
         height: 250px;
-    }
-    
-    .project1 {
-        position: relative;
-    } 
-    .project2 {
-        position: relative;
-    }
-    .project3 {
-        position: relative;
-    }
-
-
-    .linkedin .google .youtube {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
     }
 
     .middle {
