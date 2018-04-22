@@ -58,9 +58,10 @@
  .mtm {
      margin-top: 20px;
 }
- .section {
+ h3 {
      font-size: 25px;
      color: #7d97ad;
+     width: 100%;
 }
  a:link {
      text-decoration: none;
@@ -118,6 +119,7 @@
          text-align: center;
          align-content: center;
          width: 100%;
+         flex-wrap: wrap;
     }
      #header {
          border-bottom: 1px solid #7d97ad;
@@ -128,9 +130,7 @@
     }
      .project {
          width: 33.3%;
-         position: relative;
-         border-bottom: 0px solid;
-         width: 100%;
+         border: none;
          color: #2d3c49;
     }
      #container2 img {
