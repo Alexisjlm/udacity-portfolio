@@ -32,8 +32,9 @@
      margin-bottom: auto;
 }
  .titles {
+     margin-top: 10px;
      font-size: 25px;
-     line-height: 0px;
+     line-height:25px;
 }
  #container2 {
      width: 100%;
@@ -106,10 +107,10 @@
 /* This includes iPad until small desktops and up*/
  @media screen and (min-width: 992px) {
      #container2 img {
-         width: auto;
-         height: auto;
          max-width: 550px;
          max-height: 550px;
+         height: 250px;
+         width: auto;
     }
      #container {
          width: 1000px;
@@ -132,10 +133,6 @@
          width: 33.3%;
          border: none;
          color: #2d3c49;
-    }
-     #container2 img {
-         height: 250px;
-         width: auto;
     }
 }
  
