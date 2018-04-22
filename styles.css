@@ -74,7 +74,8 @@
      text-decoration: underline;
      color: #02b3e4;
 }
- @media screen and (min-width: 600px) {
+/*This includes Nexus 5*/
+ @media screen and (min-width: 576px) {
      #container2 img {
          width: auto;
          height: auto;
@@ -101,7 +102,8 @@
          margin-top: auto;
     }
 }
- @media screen and (min-width: 900px) {
+/* This includes iPad until small desktops and up*/
+ @media screen and (min-width: 992px) {
      #container2 img {
          width: auto;
          height: auto;
@@ -136,3 +138,4 @@
          width: auto;
     }
 }
+ 
